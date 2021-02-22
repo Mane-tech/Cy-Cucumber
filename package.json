@@ -1,0 +1,23 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "gherkin-testcafe": "^3.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://www.seleniumeasy.com/test/",
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.feature",
+  "env": {
+    "TAGS": "not @ignore"
+  }
+}
+
+
+
